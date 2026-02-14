@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-acm-pca`](https://www.npmjs.com/package/@aws-sdk/client-acm-pca/v/3.238.0).
+[`@aws-sdk/client-acm-pca`](https://www.npmjs.com/package/@aws-sdk/client-acm-pca/v/3.241.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.238.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.241.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-QIJF1mtvMYH4p9BuPD7rRN3fTrLltfuBiAUb+D/gd8cYOw2DF4IjbcsK2Hpl0RVm
+sha384-bicJM8Y147ghf0h0rNvywXqo3ftZWS7Fi1k/G6uKFHOOO/nHMSJ1KKDlcMs9FRcZ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-acm-pca": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.238.0/index.min.mjs"
+            "@aws-sdk/client-acm-pca": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.241.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.238.0/index.min.mjs": "sha384-QIJF1mtvMYH4p9BuPD7rRN3fTrLltfuBiAUb+D/gd8cYOw2DF4IjbcsK2Hpl0RVm"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.241.0/index.min.mjs": "sha384-bicJM8Y147ghf0h0rNvywXqo3ftZWS7Fi1k/G6uKFHOOO/nHMSJ1KKDlcMs9FRcZ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-acm-pca": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.238.0/index.min.mjs"
+                        "@aws-sdk/client-acm-pca": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.241.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.238.0/index.min.mjs": "sha384-QIJF1mtvMYH4p9BuPD7rRN3fTrLltfuBiAUb+D/gd8cYOw2DF4IjbcsK2Hpl0RVm"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-acm-pca@3.241.0/index.min.mjs": "sha384-bicJM8Y147ghf0h0rNvywXqo3ftZWS7Fi1k/G6uKFHOOO/nHMSJ1KKDlcMs9FRcZ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.238.0`)
+* Always pin to a specific version (`@3.241.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-acm-pca/blob/refs/tags/3.238.0/LICENSE
+https://github.com/cloud-sdk-builds/client-acm-pca/blob/refs/tags/3.241.0/LICENSE
 ```
 
 ---
